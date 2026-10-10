@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Prototipo académico de solicitud informativa de admisión 2027 para el caso Trilce. Demostración independiente del Grupo 5.">
+<meta name="theme-color" content="#c0441a"><title>Trilce · Admisión 2027 · Prototipo</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip">Ir al contenido principal</a>
+<div class="demoBanner"><div class="wrap"><span class="demoTag">PROTOTIPO ACADÉMICO</span><span>Demostración independiente · Usa datos ficticios · Sin conexión con el colegio</span></div></div>
+<header class="header"><div class="wrap topbar">
+<a href="#/inicio" class="brand" aria-label="Trilce, inicio del prototipo"><span class="brandName">trilce<span>.</span></span><span class="brandDivider"></span><span class="brandSubtitle">Admisión <strong>2027</strong><small>Solicitud de información</small></span></a>
+<nav aria-label="Navegación principal"><a href="#/inicio">Inicio</a><a href="#/ayuda">Ayuda</a><button class="linkbutton" id="resetBtn" type="button">Reiniciar prueba <span aria-hidden="true">↺</span></button></nav>
+</div></header>
+<main id="main" tabindex="-1" class="wrap"><p id="sessionStatus" class="sessionStatus" role="status" aria-live="polite"></p><noscript>Habilita JavaScript para completar esta demostración.</noscript><div id="view"></div></main>
+<footer class="footer"><div class="wrap footflex"><div><span class="footerBrand">trilce.</span><span>Propuesta académica de admisión</span></div><p>UTP · Interacción Hombre–Máquina<br>Grupo 5 · APF2</p><span class="footerNote">Datos ficticios en memoria<br>Sin envíos ni matrícula real</span></div></footer>
+<dialog id="resetDialog" aria-labelledby="resetTitle" aria-describedby="resetDescription"><div class="dialogContent"><p class="eyebrow">Reiniciar demostración</p><h2 id="resetTitle">¿Borrar los datos de prueba?</h2><p id="resetDescription">Volverás al inicio. Se eliminarán los datos ficticios y las selecciones de esta sesión.</p><div class="actions"><button class="btn secondary" id="cancelReset" type="button" autofocus>Seguir con mi solicitud</button><button class="btn" id="confirmReset" type="button">Sí, reiniciar</button></div></div></dialog>
+</body></html>
